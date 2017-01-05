@@ -1,0 +1,10 @@
+import com.wizpanda.city.City
+
+model {
+    City city
+}
+
+json {
+    name city.name
+    state g.render(template: "/state/state", model: [_state: city.state])
+}

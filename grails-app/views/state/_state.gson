@@ -1,0 +1,9 @@
+import com.wizpanda.state.State
+
+model {
+    State _state
+}
+
+json {
+    name _state.name
+}

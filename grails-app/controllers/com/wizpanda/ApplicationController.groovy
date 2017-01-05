@@ -1,4 +1,4 @@
-package jsonviewstate
+package com.wizpanda
 
 import grails.core.GrailsApplication
 import grails.util.Environment
